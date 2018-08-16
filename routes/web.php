@@ -18,3 +18,7 @@ Route::get('/', function () {
 Route::get('/users', 'UsersController@getUsers');
 
 Route::get('/articles', 'ArticlesController@getArticles');
+
+Route::get('/posts', 'PostsController@getPosts');
+
+Route::get("/documentation",'APIDocumentationController@getAll');

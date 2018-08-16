@@ -59,6 +59,16 @@
                 text-transform: uppercase;
             }
 
+
+            h4 > a {
+              color: #636b6f;
+              padding: 0 25px;
+              font-size: 12px;
+              font-weight: 600;
+              letter-spacing: .1rem;
+              text-decoration: none;
+              text-transform: uppercase;
+            }
             .m-b-md {
                 margin-bottom: 30px;
             }
@@ -74,7 +84,13 @@
                 <div class="links">
                     <a href="/users">Users</a>
                     <a href="/articles">Articles</a>
+                    <a href="/posts">Posts</a>
                 </div>
+                <br><br>
+                <div class="documentation">
+                  <h4><a href="/documentation">API Documentation</a></h4>
+                </div>
+
             </div>
         </div>
     </body>
